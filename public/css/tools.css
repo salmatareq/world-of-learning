@@ -1,0 +1,96 @@
+ rigth {
+  width: 70%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+.app {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: 700px;
+ 
+}
+rigth ul {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 20px;
+  list-style-type: disc;
+  line-height: 50px;
+}
+.title {
+  font-size: 56px;
+  color: var(--text-color);
+}
+.find {
+  font-size: 20px;
+  color: #2563EB;
+  display: flex;
+  gap: 20px;
+}
+ left .cards{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+      gap:25px;
+}
+left{
+    position: relative;
+    width: 750px ;
+}
+.cards .box{
+    width:200px ;
+    height: 235px;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+box-shadow: rgba(0, 0, 0, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;}
+.cards .box .type{
+    background-color: #F3E8FF;
+    width: 71px;;
+    font-size: 14px;
+    color: #6B21A8;
+    display: flex;
+    justify-content: center;
+}.cards .box .name{
+
+font-size: 24px;
+font-weight: 500;
+line-height: 20px;
+color: var(--text-color);
+}
+.cards .box .paragraph{
+
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+color: #475569;
+}
+.cards .box .button{
+width: 170px;
+height: 40px;
+border-radius: 8px;
+border: 4px solid #2563EB;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #2563EB;
+}
+
+[attribute="one"]{
+
+position: absolute;
+top:45px;
+left: 81px;
+width: 230px;
+ z-index: -1;
+
+}

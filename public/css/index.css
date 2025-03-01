@@ -1,0 +1,40 @@
+:root {
+  --text-color: #0f172a;
+  --or: #ea580c;
+}
+main {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  grid-row-gap: 170px;
+  @media (max-width: 1550px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    justify-items: center;
+    align-items: center;
+  }
+  @media (max-width: 1190px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 600px 600px 600px 600px 600px 600px auto 600px 600px 600px auto auto;
+    justify-items: center;
+    align-items: center;
+  }
+}
+body {
+  position: relative;
+  margin: 0px;
+  overflow-x: hidden;
+}
+main :nth-child(12) {
+  margin-top: -170px; /* Pull up the 4th row to remove gap */
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}

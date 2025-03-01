@@ -1,0 +1,49 @@
+photos {
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+}
+first,
+second,
+third,
+fourth {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+first,
+fourth {
+  top: 50px;
+}
+meet {
+  width: 700px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 800;
+  color: var(--text-color);
+}
+.Explore {
+  font-size: 20px;
+  color: #2563eb;
+  display: flex;
+  gap: 20px;
+}
+content {
+  font-size: 20px;
+  line-height: 25px;
+}
+[attribute="plane"] {
+  width: 64px;
+  aspect-ratio: 1;
+
+  position: absolute;
+  top: -40px;
+  right: 280px;
+}
